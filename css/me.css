@@ -1,0 +1,497 @@
+        .fl {
+            float: left;
+        }
+        
+        .fr {
+            float: right;
+        }
+        
+        .f12 {
+            font-size: 12px;
+        }
+        
+        button {
+            border: none;
+        }
+        
+        a {
+            text-decoration: none !important;
+        }
+        
+        .brd {
+            border: 1px solid #999;
+        }
+        
+        .header1 {
+            height: 26px;
+            background-color: #f2f2f2;
+        }
+        
+        .h-center {
+            width: 1190px;
+            height: 26px;
+            margin: 0 auto;
+        }
+        
+        .h-p1 {
+            margin: 0 20px 0 0;
+        }
+        
+        .h-p2-a1 {
+            margin: 0 10px 0 20px;
+        }
+        
+        .h-p2-a2 {
+            margin: 0 10px;
+        }
+        
+        .h-ul>li {
+            padding: 0 10px;
+        }
+        
+        .h-ul>li {
+            position: relative;
+            font-size: 12px;
+        }
+        
+        .h-ul-d1,
+        .h-ul-d2 {
+            width: 94px;
+            position: absolute;
+            padding: 0 10px;
+            top: 26px;
+            left: 0;
+            border: 1px solid #999;
+            display: none;
+            background-color: #fff;
+        }
+        
+        .h-ul-d3 {
+            width: 122px;
+            position: absolute;
+            padding: 0 10px;
+            top: 26px;
+            left: 0;
+            border: 1px solid #999;
+            display: none;
+            background-color: #fff;
+        }
+        
+        .h-ul-d4 {
+            width: 1190px;
+            position: absolute;
+            border: 1px solid #999;
+            top: 26px;
+            left: -1107px;
+            display: none;
+            background-color: #fff;
+            z-index: 1;
+        }
+        
+        .h-ul-d4>h4,
+        .d4-left {
+            width: 42%;
+            padding: 15px;
+        }
+        
+        .h-ul-d4>h4:nth-child(1) {
+            color: #f56a00;
+            font-weight: bold;
+        }
+        
+        .h-ul-d4>h4:nth-child(2) {
+            color: #2263d4;
+            font-weight: bold;
+        }
+        
+        .h-ul-d4>h4:nth-child(3) {
+            color: #666;
+            font-weight: bold;
+        }
+        
+        .d4-left {
+            padding: 0 15px;
+            float: left;
+        }
+        
+        .d4-left>li {
+            width: 20%;
+            float: left;
+        }
+        
+        .headercon {
+            width: 1190px;
+            height: 85px;
+            margin: 0 auto;
+        }
+        
+        .icon-tianmao_huaban1 {
+            font-size: 24px;
+            color: #ff0036;
+            line-height: 80px;
+        }
+        
+        .headercon a {
+            width: 20px;
+            height: 22px;
+            border: 1px solid red;
+        }
+        
+        .headercon-p1 {
+            width: 122px;
+            font-size: 12px;
+            margin: 20px;
+            font-weight: bold;
+        }
+        
+        .headercon-p2 {
+            width: 132px;
+            height: 38px;
+            float: left;
+            margin: 20px;
+        }
+        
+        .headercon-p2 p {
+            float: left;
+            width: 32%;
+            font-size: 12px;
+        }
+        
+        .headercon-p2 span {
+            color: #ff0036;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .glyphicon-qrcode {
+            font-size: 18px;
+        }
+        
+        .headercon-drop {
+            width: 180px;
+            text-align: center;
+            padding: 5px;
+            display: none;
+            background-color: #fff;
+        }
+        
+        .headercon-p3 {
+            margin: 15px 0 0 0;
+        }
+        
+        .headercon-p3 button {
+            width: 80px;
+            height: 30px;
+            font-size: 20px;
+            color: #f2f2f2;
+        }
+        
+        .headercon-p3 input {
+            width: 367px;
+            height: 36px;
+            padding: 5px;
+            border: 3px solid #ff0036;
+        }
+        
+        .headercon-p3-b1 {
+            background-color: #ff0036;
+        }
+        
+        .headercon-p3-b2 {
+            background-color: #333;
+        }
+        
+        .layout {
+            height: 150px;
+        }
+        
+        .layout>:first-child {
+            width: 990px;
+            height: 110px;
+            margin: 0 auto;
+        }
+        
+        .layout-d2 {
+            height: 40px;
+            background-color: black;
+        }
+        
+        .lunbo {
+            height: 450px;
+            background-color: #fd9103;
+        }
+        
+        .lunbo-c {
+            width: 990px;
+            height: 450px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .lunbo-c a {
+            width: 990px;
+            height: 450px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .lunbo2 {
+            display: none;
+        }
+        
+        .kv1920 {
+            height: 1445px;
+            background: url(../img/ia_300000097.jpg) no-repeat center center;
+        }
+        
+        .kv1920-c {
+            width: 990px;
+            padding: 50px 0 0 0;
+            margin: 0 auto;
+        }
+        
+        .leimu {
+            position: fixed;
+            padding: 90px 0 0 0;
+            width: 100px;
+            height: 354px;
+            top: 275px;
+            left: 45px;
+            background: url(../img/ia_300000002.png) no-repeat;
+        }
+        
+        .leimu a {
+            width: 87px;
+            height: 32px;
+            display: block;
+        }
+        /* 轮播图 */
+        
+        .swiper-container {
+            width: 990px;
+            height: 365px;
+            margin: 20px 0 30px 0;
+        }
+        /* 列表页 */
+        
+        .list1 {
+            overflow: hidden;
+            width: 990px;
+            margin: 0 auto;
+            background-color: #e6e6e6;
+        }
+        
+        .kv1920list {
+            overflow: hidden;
+        }
+        
+        .list1-ban {
+            width: 236px;
+            height: 278px;
+            margin: 12px 0 0 10px;
+            border-radius: 9px;
+            float: left;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        .meng {
+            width: 236px;
+            height: 278px;
+            border-radius: 9px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        
+        .list1-ban a {
+            display: block;
+            color: #000;
+            width: 236px;
+            height: 232px;
+        }
+        
+        .ban-img {
+            width: 236px;
+            height: 202px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .ban-img img {
+            position: absolute;
+            top: -5px;
+            left: -7px;
+        }
+        
+        .ban-title {
+            text-align: center;
+            height: 22px;
+            line-height: 22px;
+            margin: 8px 0 0 0;
+        }
+        
+        .ban-price {
+            width: 120px;
+            height: 28px;
+            margin: 12px 0 0 14px;
+        }
+        
+        .ban-buy {
+            width: 71px;
+            height: 21px;
+            margin: 18px 0 0 10px;
+            font-size: 12px;
+            line-height: 21px;
+            border-radius: 5px;
+            background-color: #fd9103;
+            text-align: center;
+            color: #fff;
+        }
+        
+        .list2 {
+            width: 990px;
+            padding: 40px 0 0 0;
+            margin: 0 auto;
+            background-color: #e6e6e6;
+        }
+        
+        .list2-div {
+            width: 990px;
+            margin: 25px 0 0 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .list2-div>div {
+            width: 320px;
+            height: 306px;
+            margin-top: 15px;
+        }
+        
+        .list3,
+        .list4 {
+            width: 990px;
+            padding: 40px 0 0 0;
+            margin: 0 auto;
+            background-color: #e6e6e6;
+        }
+        
+        .list3-div {
+            margin: 15px 0 0 0;
+            width: 990px;
+            overflow: hidden;
+        }
+        
+        .list3-ban {
+            width: 157px;
+            height: 157px;
+            margin: 12px 0 0 8px;
+            float: left;
+            position: relative;
+        }
+        
+        .list3-ban>div {
+            width: 157px;
+            height: 157px;
+        }
+        
+        .list3-ban img {
+            width: 157px;
+        }
+        
+        .list3-ban a {
+            width: 157px;
+            height: 157px;
+            display: block;
+        }
+        
+        .list4-div {
+            width: 990px;
+            margin: 25px 0 0 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .list4-ban {
+            width: 319px;
+            height: 163px;
+            margin: 18px 0 0 0;
+        }
+        
+        .list4-ban a {
+            display: block;
+            width: 319px;
+            height: 163px;
+        }
+        
+        .list5 {
+            width: 990px;
+            height: 924px;
+            overflow: hidden;
+            margin: 0 auto;
+            background: url("../img/ia_300001666.jpg") no-repeat center center;
+        }
+        
+        .list5 a {
+            display: block;
+        }
+        
+        .list5-a1 {
+            width: 990px;
+            height: 250px;
+            margin: 20px 0 0 0;
+        }
+        
+        .list5-div {
+            width: 990px;
+            margin: 5px 0 0 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .list5-div a {
+            width: 323px;
+            height: 303px;
+            margin-top: 10px;
+        }
+        
+        .gouwu {
+            width: 990px;
+            margin: 20px auto 10px;
+        }
+        
+        .gouwu a {
+            display: block;
+            width: 990px;
+        }
+        
+        .gouwu>a:nth-child(1) {
+            height: 250px;
+        }
+        
+        .gouwu>a:nth-child(2) {
+            height: 130px;
+        }
+        
+        .brand {
+            width: 990px;
+            height: 876px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .brand img {
+            position: absolute;
+            left: -47%;
+        }

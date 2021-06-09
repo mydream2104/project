@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.brd {
+    border: 1px solid #999;
+}
+
+header {
+    padding: 22px 0px;
+    height: 44px;
+    width: 1190px;
+    margin: auto;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+    background: #dd2726;
+}
+
+.content-c {
+    width: 1190px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../img/login2.png") no-repeat;
+}
+
+.loginbox {
+    width: 350px;
+    min-height: 350px;
+    padding: 25px 25px 23px;
+    color: #6c6c6c;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -215px;
+}
+
+.loginbox li {
+    float: left;
+    font-size: 24px;
+    border-bottom: 2px solid #999;
+}
+
+form input {
+    width: 65%;
+    border: 1px solid #ccc;
+    height: 42px;
+    outline: none;
+    font-size: 14px;
+    padding-left: 50px;
+    margin: 10px 0;
+}
+
+form span {
+    width: 55px;
+    display: inline-block;
+}
+
+form button {
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #f40;
+}
+
+.show {
+    display: block !important;
+}

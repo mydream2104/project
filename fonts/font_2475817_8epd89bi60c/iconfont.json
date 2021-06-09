@@ -1,0 +1,16 @@
+{
+  "id": "2475817",
+  "name": "123",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8427034",
+      "name": "天猫",
+      "font_class": "tianmao_huaban1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

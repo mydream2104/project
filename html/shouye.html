@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../fonts/font_2475817_8epd89bi60c/iconfont.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/me.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/pagination.js"></script>
+    <script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+</head>
+
+<body>
+    <!-- toubu -->
+    <header class="header1" style="line-height: 26px;">
+        <div class="h-center">
+            <p class="h-p1 fl">
+                <span class=" f12 glyphicon glyphicon-home
+                " style="color: #ff0036;"></span>
+                <a href="">天猫首页</a>
+            </p>
+            <p class="h-p2 fl">
+                喵，欢迎<span id="nameU"></span>来到天猫
+                <a href="./login.html" class="h-p2-a1">请登录</a>
+                <a href="./register.html" class="h-p2-a2">免费注册</a>
+                <a href="./shouye.html" class="h-p2-a3"></a>
+            </p>
+
+            <ul class="fr h-ul">
+                <li class="fl">
+                    <a href="">我的淘宝</a>
+                    <div class="h-ul-d1">
+                        <p>
+                            <a href="">已买到的宝贝</a>
+                        </p>
+                        <p>
+                            <a href="">已卖出的宝贝</a>
+                        </p>
+                    </div>
+                </li>
+                <li class="fl">
+                    <span class="glyphicon glyphicon-shopping-cart" style="color: #ff0036;"></span>
+                    <a href="./shopcart.html">购物车</a>
+                </li>
+                <li class="fl">
+                    <a href="">收藏夹</a>
+                    <div class="h-ul-d2">
+                        <p>
+                            <a href="">收藏的宝贝</a>
+                        </p>
+                        <p>
+                            <a href="">收藏的店铺</a>
+                        </p>
+                    </div>
+                </li>
+                <li class="fl">
+                    <span class="glyphicon glyphicon-phone" style="color: #ff0036;"></span>
+                    <a href="">手机版</a></li>
+                <li class="fl"> <a href="">淘宝网</a></li>
+                <li class="fl"> <a href="">商家支持</a>
+                    <div class="h-ul-d3">
+                        <p><b>商家</b></p>
+                        <a href="" class="fl">商家中心</a>
+                        <a href="" class="fr">天猫规则</a>
+                        <a href="" class="fl">商家入驻</a>
+                        <a href="" class="fr">运营服务</a>
+                        <a href="" class="fl">商家品控</a>
+                        <a href="" class="fr">商家工具</a>
+                        <a href="" class="fl">天猫智库</a>
+                        <a href="" class="fr">喵言喵语</a>
+                        <p><b>帮助</b></p>
+                        <p><a href="">商家服务大厅</a></p>
+                        <p><a href="">问商友</a></p>
+                    </div>
+                </li>
+                <li class=" fl ">
+                    <span class="glyphicon glyphicon-list " style="color: #ff0036; "></span>
+                    <a href=" ">网站导航</a>
+                    <div class="h-ul-d4">
+                        <h4 class="fl">热点推荐 Hot</h4>
+                        <h4 class="fl">行业市场 Market</h4>
+                        <h4 class="fl" style="width: 16%;">服务指南 Help</h4>
+                        <ul class="d4-left d4-1">
+                            <li>
+                                <a href="">1</a>
+                            </li>
+                            <li>
+                                <a href="">2</a>
+                            </li>
+                            <li>
+                                <a href="">3</a>
+                            </li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                        </ul>
+                        <ul class="d4-left d4-2">
+                            <li>
+                                <a href="">1</a>
+                            </li>
+                            <li>
+                                <a href="">2</a>
+                            </li>
+                            <li>
+                                <a href="">3</a>
+                            </li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">3</a></li>
+                        </ul>
+                        <ul class="d4-left d4-3" style="width: 16%;">
+                            <li style="width: 50%;"><a href="">3</a></li>
+                            <li style="width: 50%;"><a href="">3</a></li>
+                            <li style="width: 50%;"><a href="">3</a></li>
+                            <li style="width: 50%;"><a href="">3</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+    </header>
+    <div class="headercon">
+        <span class="iconfont icon-tianmao_huaban1 fl"></span>
+        <p class="fl headercon-p1"><span>goodsmile官方旗舰店</span>
+            <a href="">1</a>
+        </p>
+        <div class="headercon-p2">
+            <p>描述</p>
+            <p>服务</p>
+            <p>物流</p>
+            <p>4.9 <span class="glyphicon glyphicon-arrow-up"></span></p>
+            <p>4.9<span class="glyphicon glyphicon-arrow-up"></span></p>
+            <p>4.9<span class="glyphicon glyphicon-arrow-up"></span></p>
+        </div>
+        <div class="headercon-p2">
+            <p>手机逛</p>
+            <div class="clear"></div>
+            <span class="glyphicon glyphicon-qrcode qrc1"></span>
+            <span class="glyphicon glyphicon-triangle-bottom"></span>
+            <div class="headercon-drop brd">
+                <div class="glyphicon glyphicon-qrcode" style="font-size: 150px;">
+                </div>
+                <div class="clear"></div>
+                <div>扫一扫，手机逛起来</div>
+            </div>
+        </div>
+        <div class="headercon-p3 fr">
+            <input type="text">
+            <button class="headercon-p3-b1">搜天猫</button>
+            <button class="headercon-p3-b2">搜本店</button>
+        </div>
+    </div>
+    <div class="layout">
+        <div class="layout-d1"><img src="../img/ia_300000001.gif" alt=""></div>
+        <div class="layout-d2"></div>
+    </div>
+    <div class="lunbo">
+        <div class="lunbo-c">
+            <img src="" class="lunbo1">
+
+            <img src="" class="lunbo2">
+            <a href=""></a>
+        </div>
+    </div>
+    <!-- 新品发售日历 -->
+    <div class="kv1920">
+        <div class="kv1920-c">
+            <img src="../img/ia_300000005.png" alt="">
+            <!-- 轮播图 -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- 如果需要滚动条 -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <!-- 导航等组件可以放在container之外 -->
+            <img src="" alt="1">
+            <div class="kv1920list">
+                <div class="list1-ban">
+                    <div class="meng">
+                        <a href=""></a>
+                    </div>
+
+                    <p class="ban-img"><img src="" alt=""></p>
+                    <p class="ban-title">示例</p>
+                    <div class="fl ban-price">
+                        <span> <b>RMB:</b> </span>
+                        <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+                    </div>
+                    <div class="fl ban-buy">立即购买</div>
+
+
+                </div>
+                <div class="list1-ban">
+                    <div class="meng">
+                        <a href=""></a>
+                    </div>
+
+                    <p class="ban-img"><img src="" alt=""></p>
+                    <p class="ban-title">示例</p>
+                    <div class="fl ban-price">
+                        <span> <b>RMB:</b> </span>
+                        <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+                    </div>
+                    <div class="fl ban-buy">立即购买</div>
+
+                </div>
+                <div class="list1-ban">
+                    <div class="meng">
+                        <a href=""></a>
+                    </div>
+
+                    <p class="ban-img"><img src="" alt=""></p>
+                    <p class="ban-title">示例</p>
+                    <div class="fl ban-price">
+                        <span> <b>RMB:</b> </span>
+                        <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+                    </div>
+                    <div class="fl ban-buy">立即购买</div>
+
+                </div>
+                <div class="list1-ban">
+                    <div class="meng">
+                        <a href=""></a>
+                    </div>
+
+                    <p class="ban-img"><img src="" alt=""></p>
+                    <p class="ban-title">示例</p>
+                    <div class="fl ban-price">
+                        <span> <b>RMB:</b> </span>
+                        <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+                    </div>
+                    <div class="fl ban-buy">立即购买</div>
+
+                </div>
+                <div class="list1-ban">
+                    <div class="meng">
+                        <a href=""></a>
+                    </div>
+
+                    <p class="ban-img"><img src="" alt=""></p>
+                    <p class="ban-title">示例</p>
+                    <div class="fl ban-price">
+                        <span> <b>RMB:</b> </span>
+                        <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+                    </div>
+                    <div class="fl ban-buy">立即购买</div>
+
+                </div>
+                <div class="list1-ban">
+                    <div class="meng">
+                        <a href=""></a>
+                    </div>
+
+                    <p class="ban-img"><img src="" alt=""></p>
+                    <p class="ban-title">示例</p>
+                    <div class="fl ban-price">
+                        <span> <b>RMB:</b> </span>
+                        <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+                    </div>
+                    <div class="fl ban-buy">立即购买</div>
+
+                </div>
+                <div class="list1-ban">
+                    <div class="meng">
+                        <a href=""></a>
+                    </div>
+
+                    <p class="ban-img"><img src="" alt=""></p>
+                    <p class="ban-title">示例</p>
+                    <div class="fl ban-price">
+                        <span> <b>RMB:</b> </span>
+                        <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+                    </div>
+                    <div class="fl ban-buy">立即购买</div>
+
+                </div>
+                <div class="list1-ban">
+                    <div class="meng">
+                        <a href=""></a>
+                    </div>
+
+                    <p class="ban-img"><img src="" alt=""></p>
+                    <p class="ban-title">示例</p>
+                    <div class="fl ban-price">
+                        <span> <b>RMB:</b> </span>
+                        <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+                    </div>
+                    <div class="fl ban-buy">立即购买</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 列表页 -->
+    <div class="list1">
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+        <div class="list1-ban">
+            <div class="meng">
+                <a href=""></a>
+            </div>
+
+            <p class="ban-img"><img src="" alt=""></p>
+            <p class="ban-title">示例</p>
+            <div class="fl ban-price">
+                <span> <b>RMB:</b> </span>
+                <span class="ban-jiage" style="font-size: 24px;color: #ed7100;">100</span>
+            </div>
+            <div class="fl ban-buy">立即购买</div>
+
+        </div>
+    </div>
+    <!-- 列表页2 -->
+    <div class="list2">
+        <img src="//gdp.alicdn.com/imgextra/i4/850341201/O1CN01N4doqd1Kk6GdEX34a_!!850341201.png" alt="" style="margin-left: 15px;">
+        <div class="list2-div">
+            <div>
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- 列表页3 -->
+    <div class="list3">
+        <img src="../img/ia_300001646.png" alt="2">
+        <div class="list3-div">
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+            <div class="list3-ban">
+                <div class="meng">
+                    <a href=""></a>
+                </div>
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 列表页4 -->
+    <div class="list4">
+        <img src="../img/ia_300001659.jpg" alt="3">
+        <div class="list4-div">
+            <div class="list4-ban">
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="list4-ban">
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="list4-ban">
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="list4-ban">
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="list4-ban">
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="list4-ban">
+                <a href=""><img src="" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- 列表页5 -->
+    <div class="list5">
+        <a href="" class="list5-a1"></a>
+        <div class="list5-div">
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+    </div>
+    <!-- 购物须知 -->
+    <div class="gouwu">
+        <a href=""><img src="../img/ia_300001667.png" alt=""></a>
+        <!-- 保养知识 -->
+        <a href="" style="margin-top: 10px;"><img src="../img/ia_300001668.png" alt=""></a>
+    </div>
+    <!-- 品牌 -->
+    <div class="brand"><img src="../img/ia_300001669.jpg" alt=""></div>
+    <!-- 蕾姆悬浮 -->
+    <div class="leimu">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </div>
+    <script src=" ../js/me.js "></script>
+</body>
+
+</html>
+
+</html>

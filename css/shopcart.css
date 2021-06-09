@@ -1,0 +1,216 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+button {
+    border: none;
+    outline: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.brd {
+    border: 1px solid #999;
+}
+
+.header1 {
+    height: 26px;
+    background-color: #f2f2f2;
+}
+
+.h-center {
+    width: 1190px;
+    height: 26px;
+    margin: 0 auto;
+}
+
+.h-p1 {
+    margin: 0 20px 0 0;
+}
+
+.h-p2-a1 {
+    margin: 0 10px 0 20px;
+}
+
+.h-p2-a2 {
+    margin: 0 10px;
+}
+
+.h-ul>li {
+    padding: 0 10px;
+}
+
+.h-ul>li {
+    position: relative;
+    font-size: 12px;
+}
+
+.h-ul-d1,
+.h-ul-d2 {
+    width: 94px;
+    position: absolute;
+    padding: 0 10px;
+    top: 26px;
+    left: 0;
+    border: 1px solid #999;
+    display: none;
+    background-color: #fff;
+}
+
+.h-ul-d3 {
+    width: 122px;
+    position: absolute;
+    padding: 0 10px;
+    top: 26px;
+    left: 0;
+    border: 1px solid #999;
+    display: none;
+    background-color: #fff;
+}
+
+.h-ul-d4 {
+    width: 1190px;
+    position: absolute;
+    border: 1px solid #999;
+    top: 26px;
+    left: -1107px;
+    display: none;
+    background-color: #fff;
+}
+
+.h-ul-d4>h4,
+.d4-left {
+    width: 42%;
+    padding: 15px;
+}
+
+.h-ul-d4>h4:nth-child(1) {
+    color: #f56a00;
+    font-weight: bold;
+}
+
+.h-ul-d4>h4:nth-child(2) {
+    color: #2263d4;
+    font-weight: bold;
+}
+
+.h-ul-d4>h4:nth-child(3) {
+    color: #666;
+    font-weight: bold;
+}
+
+.d4-left {
+    padding: 0 15px;
+    float: left;
+}
+
+.d4-left>li {
+    width: 20%;
+    float: left;
+}
+
+.headercon {
+    width: 1190px;
+    height: 85px;
+    margin: 0 auto;
+}
+
+.icon-tianmao_huaban1 {
+    font-size: 24px;
+    color: #ff0036;
+    line-height: 80px;
+}
+
+.headercon a {
+    width: 20px;
+    height: 22px;
+    border: 1px solid red;
+}
+
+.headercon-p1 {
+    width: 122px;
+    font-size: 12px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.headercon-p2 {
+    width: 132px;
+    height: 38px;
+    float: left;
+    margin: 20px;
+}
+
+.headercon-p2 p {
+    float: left;
+    width: 32%;
+    font-size: 12px;
+}
+
+.headercon-p2 span {
+    color: #ff0036;
+}
+
+.clear {
+    clear: both;
+}
+
+.glyphicon-qrcode {
+    font-size: 18px;
+}
+
+.headercon-drop {
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+    display: none;
+    background-color: #fff;
+}
+
+.headercon-p3 {
+    margin: 15px 0 0 0;
+}
+
+.headercon-p3 button {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+.headercon-p3 input {
+    width: 367px;
+    height: 36px;
+    padding: 5px;
+    border: 3px solid #ff0036;
+}
+
+.headercon-p3-b1 {
+    background-color: #ff0036;
+}
+
+.headercon-p3-b2 {
+    background-color: #333;
+}
+
+.input1 {
+    width: 300px;
+}
+
+.width1 {
+    width: 88%;
+}
+
+.right1 {
+    margin-left: 300px;
+}

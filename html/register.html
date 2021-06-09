@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/jquery.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <ul>
+            <li></li>
+            <li class="brc" id="li1">填写账号信息</li>
+            <li id="li2">注册成功</li>
+            <li></li>
+        </ul>
+        <div class="warning1">用户名重复，请重新输入！</div>
+        <div class="show" id="d1">
+            <form action="#" id="frm" method="POST">
+                <p><span>用户名</span> ：<input type="text" name="username" id="username"></p>
+                <p><span>密码</span> ：<input type="password" name="pwd" id="pwd"></p>
+                <p><span>确认密码</span> ：<input type="password" name="con_pwd" id="con_pwd"></p>
+                <p> <span>邮箱</span> ：<input type="text" name="email" id="email"></p>
+                <p><span>手机号</span> ：<input type="text" name="phone" id="phone"></p>
+                <button>注册</button>
+            </form>
+        </div>
+        <div style="font-size: 40px;" id="d2">恭喜注册成功，立马跳转中..</div>
+    </header>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>
